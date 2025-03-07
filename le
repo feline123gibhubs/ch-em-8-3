@@ -1,0 +1,94 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Chúc Mừng Ngày 8/3
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Pacifico', cursive;
+        }
+  </style>
+  <script>
+   function openBlindBox() {
+            const min = 10;
+            const max = 50;
+            const value = Math.floor(Math.random() * (max - min + 1)) + min;
+            const messages = [
+                "Chúc bạn luôn xinh đẹp và hạnh phúc!",
+                "Chúc bạn thành công trong mọi lĩnh vực!",
+                "Chúc bạn luôn vui vẻ và yêu đời!",
+                "Chúc bạn có một ngày 8/3 thật đặc biệt!",
+                "Chúc bạn luôn mạnh khỏe và tràn đầy năng lượng!"
+            ];
+            const message = messages[Math.floor(Math.random() * messages.length)];
+            alert(`Chúc mừng! Bạn đã nhận được lì xì trị giá ${value}k! ${message}`);
+        }
+  </script>
+ </head>
+ <body class="bg-pink-100">
+  <header class="bg-pink-500 text-white text-center py-4">
+   <h1 class="text-4xl">
+    Chúc Mừng Ngày 8/3
+   </h1>
+  </header>
+  <main class="container mx-auto px-4 py-8">
+   <section class="text-center mb-8">
+    <h2 class="text-3xl text-pink-700 mb-4">
+     Lời Chúc Tốt Đẹp Nhất
+    </h2>
+    <p class="text-lg text-gray-700">
+     Chúc các chị em phụ nữ luôn xinh đẹp, hạnh phúc và thành công trong cuộc sống!
+    </p>
+   </section>
+   <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+     <img alt="Hình ảnh một túi mù lì xì màu đỏ" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/qkmh1j0QOOsbazLNBN2FWeUzrpt0OKqR6f-MRmoSNdo.jpg" width="300"/>
+     <button class="mt-4 bg-pink-500 text-white py-2 px-4 rounded" onclick="openBlindBox()">
+      Mở Lì Xì
+     </button>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+     <img alt="Hình ảnh một túi mù lì xì màu đỏ" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/qkmh1j0QOOsbazLNBN2FWeUzrpt0OKqR6f-MRmoSNdo.jpg" width="300"/>
+     <button class="mt-4 bg-pink-500 text-white py-2 px-4 rounded" onclick="openBlindBox()">
+      Mở Lì Xì
+     </button>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+     <img alt="Hình ảnh một túi mù lì xì màu đỏ" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/qkmh1j0QOOsbazLNBN2FWeUzrpt0OKqR6f-MRmoSNdo.jpg" width="300"/>
+     <button class="mt-4 bg-pink-500 text-white py-2 px-4 rounded" onclick="openBlindBox()">
+      Mở Lì Xì
+     </button>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+     <img alt="Hình ảnh một túi mù lì xì màu đỏ" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/qkmh1j0QOOsbazLNBN2FWeUzrpt0OKqR6f-MRmoSNdo.jpg" width="300"/>
+     <button class="mt-4 bg-pink-500 text-white py-2 px-4 rounded" onclick="openBlindBox()">
+      Mở Lì Xì
+     </button>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+     <img alt="Hình ảnh một túi mù lì xì màu đỏ" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/qkmh1j0QOOsbazLNBN2FWeUzrpt0OKqR6f-MRmoSNdo.jpg" width="300"/>
+     <button class="mt-4 bg-pink-500 text-white py-2 px-4 rounded" onclick="openBlindBox()">
+      Mở Lì Xì
+     </button>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+     <img alt="Hình ảnh một túi mù lì xì màu đỏ" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/qkmh1j0QOOsbazLNBN2FWeUzrpt0OKqR6f-MRmoSNdo.jpg" width="300"/>
+     <button class="mt-4 bg-pink-500 text-white py-2 px-4 rounded" onclick="openBlindBox()">
+      Mở Lì Xì
+     </button>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-pink-500 text-white text-center py-4">
+   <p>
+    © 2023 Chúc Mừng Ngày 8/3. All rights reserved.
+   </p>
+  </footer>
+ </body>
+</html>
